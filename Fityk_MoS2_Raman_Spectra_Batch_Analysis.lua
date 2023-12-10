@@ -1,3 +1,5 @@
+-- Andrew S. Messecar, 2023
+
 function Import_and_Fit_Spectra_From_Folder( Folder_Directory , File_Path )
 
    local p = io.popen('find "' .. Folder_Directory .. '" -type f')  --Open directory look for files, save data in p. By giving '-type f' as parameter, it returns all files.     
